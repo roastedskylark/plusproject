@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #e4afcb 0%,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #e2c58b 30%,
+    #c2ce9c 64%,
+    #7edbdc 100%
+  );
+}
+.border {
+  padding: 25px;
+  background-color: white;
+  border-radius: 4%;
+  box-shadow: 9px 9px 100px grey;
+}
+.wrapper {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+#city {
+  font-size: 70px;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #7edbdc;
+  font-weight: 1000;
+}
+
+h1 {
+  padding: 0%;
+}
+
+#current-temp {
+  font-size: 100px;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+#temp-emoji {
+  font-size: 90px;
+  padding: 0;
+}
+#current {
+  font-family: "Montserrat", sans-serif;
+  padding: 0%;
+}
+
+#time {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#weatherIcon {
+  text-align: center;
+}
+#celcius {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#cityinput {
+  font-family: "Montserrat", sans-serif;
+}
+.button {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border: 2px solid white;
+  background-color: #7edbdc;
+  border-radius: 4%;
+  padding: 6px 20px 6px 20px;
+}
+#city-input {
+  border: 2px solid #7edbdc;
+  font-family: "Montserrat", sans-serif;
+}
+small {
+  font-family: "Montserrat", sans-serif;
+  color: #7edbdc;
+}
