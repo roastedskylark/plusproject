@@ -16,17 +16,17 @@ body {
   box-shadow: 9px 9px 100px grey;
 }
 .wrapper {
-  max-width: 800px;
+  max-width: 900px;
   margin: 30px auto;
-}
-
-ul {
-  padding: 0;
 }
 li {
   list-style: none;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 #city {
@@ -42,18 +42,19 @@ h1 {
   padding: 0%;
 }
 
-#current-temp {
-  font-size: 100px;
+#temperature {
+  font-size: 80px;
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
 #temp-emoji {
-  font-size: 90px;
-  padding: 0;
+  font-size: 70px;
+  padding: 0 0 0 10;
 }
-#current {
+#date {
   font-family: "Montserrat", sans-serif;
   padding: 0%;
+  font-size: 35px;
 }
 
 #time {
@@ -86,4 +87,9 @@ h1 {
 small {
   font-family: "Montserrat", sans-serif;
   color: #7edbdc;
+}
+.units {
+  font-size: 15px;
+  position: relative;
+  top: -46px;
 }
