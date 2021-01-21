@@ -22,14 +22,14 @@ body {
 
 ul {
   list-style: none;
-  padding: 0;
-  text-align: left;
+  position: relative;
+  left: -50px;
 }
 li {
   margin: 0;
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
 }
 #city {
   font-size: 70px;
@@ -87,7 +87,6 @@ h1 {
 small {
   font-family: "Montserrat", sans-serif;
   color: #7edbdc;
-  text-align: center;
 }
 .units {
   font-size: 15px;
@@ -98,4 +97,11 @@ small {
   text-align: center;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+#description {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 0 10px;
+  font-size: 20px;
+  text-transform: capitalize;
 }
